@@ -19,9 +19,9 @@ public class Main {
         String input = scanner.nextLine().trim();
 
         if (isValidURL(input)) {
-            System.out.println("✅ URL hợp lệ");
+            System.out.println("URL hợp lệ");
         } else {
-            System.out.println("❌ URL không hợp lệ");
+            System.out.println("URL không hợp lệ");
         }
 
         scanner.close();
